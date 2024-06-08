@@ -51,7 +51,7 @@ passpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 passpage.BorderSizePixel = 0
 passpage.Position = UDim2.new(0.171028033, 0, 0.178529739, 0)
 passpage.Size = UDim2.new(0, 349, 0, 363)
-passpage.Image = "rbxassetid://13695440070"
+passpage.Image = "rbxassetid://17757133313"
 
 submit.Name = "submit"
 submit.Parent = passpage
@@ -66,11 +66,11 @@ submit.Text = ""
 submit.TextColor3 = Color3.fromRGB(0, 0, 0)
 submit.TextSize = 14.000
 submit.MouseButton1Down:connect(function()
-if pass.Text == "KrystalTeam" then
+if pass.Text == "E3S_H-P_D2000s" then
 passpage.Visible = false
 mainpage.Visible = true
 else
-pass.Text = "Wrong Password!"
+pass.Text = "ONLY BROTHERS CAN!"
 wait(2)
 pass.Text = ""
 end
@@ -186,11 +186,11 @@ exe.Position = UDim2.new(0.315186232, 0, 0.774104655, 0)
 exe.Size = UDim2.new(0, 99, 0, 20)
 exe.Font = Enum.Font.ArialBold
 exe.Text = "Execute"
-exe.TextColor3 = Color3.fromRGB(20, 212, 255)
+exe.TextColor3 = Color3.fromRGB(0, 255, 0)
 exe.TextSize = 14.000
 exe.MouseButton1Down:connect(function()
 loadstring(input.Text)()
-output.Text = "Script successfully executed!"
+output.Text = "LETS MAKE THEM BUSTED!"
 wait(2)
 output.Text = " "
 if input.Text == " " then
@@ -210,7 +210,7 @@ clear.Position = UDim2.new(0.598853886, 0, 0.774104655, 0)
 clear.Size = UDim2.new(0, 99, 0, 20)
 clear.Font = Enum.Font.ArialBold
 clear.Text = "Clear"
-clear.TextColor3 = Color3.fromRGB(20, 212, 255)
+clear.TextColor3 = Color3.fromRGB(0, 255, 0)
 clear.TextSize = 14.000
 clear.MouseButton1Down:connect(function()
 input.Text = " "
@@ -226,7 +226,7 @@ open.Position = UDim2.new(0.0343839526, 0, 0.774104655, 0)
 open.Size = UDim2.new(0, 99, 0, 20)
 open.Font = Enum.Font.ArialBold
 open.Text = "Open"
-open.TextColor3 = Color3.fromRGB(20, 212, 255)
+open.TextColor3 = Color3.fromRGB(0, 255, 0)
 open.TextSize = 14.000
 open.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ScriptHub"))()
