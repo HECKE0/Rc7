@@ -62,8 +62,8 @@ submit.BorderSizePixel = 0
 submit.Position = UDim2.new(0.343839556, 0, 0.561983466, 0)
 submit.Size = UDim2.new(0, 101, 0, 20)
 submit.Font = Enum.Font.SourceSans
-submit.Text = ""
-submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+submit.Text = "subtim"
+submit.TextColor3 = Color3.fromRGB(0, 255, 0)
 submit.TextSize = 14.000
 submit.MouseButton1Down:connect(function()
 if pass.Text == "E3S_H-P_D2000s" then
@@ -113,8 +113,8 @@ close.BorderSizePixel = 0
 close.Position = UDim2.new(0.88252151, 0, 0, 0)
 close.Size = UDim2.new(0, 41, 0, 24)
 close.Font = Enum.Font.SourceSans
-close.Text = ""
-close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 255, 0)
 close.TextSize = 14.000
 close.MouseButton1Down:connect(function()
 passpage.Visible = false
@@ -129,8 +129,8 @@ minimize.BorderSizePixel = 0
 minimize.Position = UDim2.new(0.598853886, 0, 0, 0)
 minimize.Size = UDim2.new(0, 41, 0, 24)
 minimize.Font = Enum.Font.SourceSans
-minimize.Text = ""
-minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize.Text = "-"
+minimize.TextColor3 = Color3.fromRGB(0, 255, 0)
 minimize.TextSize = 14.000
 
 mainpage.Name = "mainpage"
@@ -153,8 +153,8 @@ input.Position = UDim2.new(0.0343839526, 0, 0.0991735533, 0)
 input.Size = UDim2.new(0, 296, 0, 239)
 input.Font = Enum.Font.Arial
 input.MultiLine = true
-input.Text = ""
-input.TextColor3 = Color3.fromRGB(0, 0, 0)
+input.Text = "X"
+input.TextColor3 = Color3.fromRGB(0, 255, 0)
 input.TextSize = 14.000
 input.TextWrapped = true
 input.TextXAlignment = Enum.TextXAlignment.Left
@@ -169,8 +169,8 @@ output.BorderSizePixel = 0
 output.Position = UDim2.new(0.0343839526, 0, 0.845730007, 0)
 output.Size = UDim2.new(0, 296, 0, 52)
 output.Font = Enum.Font.Arial
-output.Text = ""
-output.TextColor3 = Color3.fromRGB(0, 0, 0)
+output.Text = "-"
+output.TextColor3 = Color3.fromRGB(0, 255, 0)
 output.TextSize = 14.000
 output.TextWrapped = true
 output.TextXAlignment = Enum.TextXAlignment.Left
@@ -241,8 +241,8 @@ roxploit.BorderSizePixel = 0
 roxploit.Position = UDim2.new(0.904999971, 0, 0.799000025, 0)
 roxploit.Size = UDim2.new(0, 29, 0, 29)
 roxploit.Font = Enum.Font.SourceSans
-roxploit.Text = ""
-roxploit.TextColor3 = Color3.fromRGB(0, 0, 0)
+roxploit.Text = "R"
+roxploit.TextColor3 = Color3.fromRGB(0, 255, 0)
 roxploit.TextSize = 14.000
 roxploit.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))()
@@ -257,7 +257,7 @@ dex.BorderSizePixel = 0
 dex.Position = UDim2.new(0.904999971, 0, 0.910000026, 0)
 dex.Size = UDim2.new(0, 29, 0, 29)
 dex.Font = Enum.Font.SourceSans
-dex.Text = ""
+dex.Text = "D"
 dex.TextColor3 = Color3.fromRGB(0, 0, 0)
 dex.TextSize = 14.000
 dex.MouseButton1Down:connect(function()
@@ -273,8 +273,8 @@ close_2.BorderSizePixel = 0
 close_2.Position = UDim2.new(0.88252151, 0, 0, 0)
 close_2.Size = UDim2.new(0, 41, 0, 24)
 close_2.Font = Enum.Font.SourceSans
-close_2.Text = ""
-close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+close_2.Text = "X"
+close_2.TextColor3 = Color3.fromRGB(0, 255, 0)
 close_2.TextSize = 14.000
 close_2.MouseButton1Down:connect(function()
 mainpage.Visible = false
@@ -289,8 +289,8 @@ minimize_2.BorderSizePixel = 0
 minimize_2.Position = UDim2.new(0.598853886, 0, 0, 0)
 minimize_2.Size = UDim2.new(0, 41, 0, 24)
 minimize_2.Font = Enum.Font.SourceSans
-minimize_2.Text = ""
-minimize_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_2.Text = "-"
+minimize_2.TextColor3 = Color3.fromRGB(0, 255, 0)
 minimize_2.TextSize = 14.000
 minimize_2.MouseButton1Down:connect(function()
 mainpage.Visible = false
