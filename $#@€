@@ -114,7 +114,7 @@ close.Position = UDim2.new(0.88252151, 0, 0, 0)
 close.Size = UDim2.new(0, 41, 0, 24)
 close.Font = Enum.Font.SourceSans
 close.Text = "CLOSE"
-close.TextColor3 = Color3.fromRGB(0, 255, 0)
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
 close.TextSize = 14.000
 close.MouseButton1Down:connect(function()
 passpage.Visible = false
@@ -130,7 +130,7 @@ minimize.Position = UDim2.new(0.598853886, 0, 0, 0)
 minimize.Size = UDim2.new(0, 41, 0, 24)
 minimize.Font = Enum.Font.SourceSans
 minimize.Text = "MINIMIZE"
-minimize.TextColor3 = Color3.fromRGB(0, 255, 0)
+minimize.TextColor3 = Color3.fromRGB(0, 0, 255)
 minimize.TextSize = 14.000
 
 mainpage.Name = "mainpage"
